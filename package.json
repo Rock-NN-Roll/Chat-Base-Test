@@ -1,0 +1,45 @@
+{
+  "name": "chat-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
+    "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@base-open/web-api": "https://lf3-static.bytednsdoc.com/obj/eden-cn/jjjpceh7nulojvhj/base-open-web-api-0.2.0-alpha.11.tgz",
+    "@lark-base-open/js-sdk": "^0.3.4",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "clsx": "^1.2.1",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "i18next": "^23.4.4",
+    "next": "13.4.9",
+    "next-i18next": "^14.0.0",
+    "openai": "^3.3.0",
+    "openai-edge": "^1.1.0",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.1.1",
+    "react-textarea-autosize": "^8.4.1",
+    "reset-css": "^5.0.2",
+    "sonner": "^0.5.0",
+    "tailwindcss": "3.3.2",
+    "typechat": "^0.0.10",
+    "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "vitest": "^0.34.1"
+  }
+}
